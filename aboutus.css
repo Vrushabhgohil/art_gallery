@@ -1,0 +1,39 @@
+/* about us */
+.flex_section{
+    display: flex;
+    justify-content: space-between;
+}
+.one img{
+    width: 35pc;
+}
+
+.two{
+    text-align: justify;
+    width: 38%;
+    line-height: 33px;
+}
+.two h3{
+    text-align: right;
+    padding: 5px;
+}
+@media (max-width:1000px) {
+    .one,.two{
+        margin: 15px;
+        width: 90%;
+    }
+    .one img{
+        width: 25pc;
+    }
+}
+@media (max-width:800px) {
+    .one img{
+        width: 100%;
+    }
+    .flex_section{
+        display: block;
+        width: 100%;
+    }
+}
+@media (max-width:500px) {
+    
+}

@@ -1,0 +1,25 @@
+.one{
+    width: 75%;
+    border: 1px solid red;
+    padding: 5%;
+    border-radius: 15px;
+    margin: 5%;
+}
+.profile_details form{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5%;
+}
+.profile_details input{
+    width: 75%;
+    margin: 10px 0;
+    padding: 10px;
+}
+.profile_logo img{
+    width: 15%;
+    border: 2px solid yellow;
+    border-radius: 50%;
+}
+.profile_details button{
+    margin: 25px 0;
+}
